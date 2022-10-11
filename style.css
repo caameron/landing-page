@@ -18,3 +18,9 @@ body {
     list-style: none;
     gap: 1rem;
 }
+
+.info, .quote, .action, .footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
