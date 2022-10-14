@@ -87,6 +87,7 @@ body {
 }
 
 .card-holder {
+    flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
     padding: 0 0 75px 0;
@@ -114,6 +115,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    padding: 100px 0;
 }
 
 .quote-text {
@@ -122,8 +124,71 @@ body {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    margin: 0;
 }
 
+.quote-author {
+    width: 800px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin:0;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
+}
+
+/* ACTION  */
+.action {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-items {
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px 0px;
+    width: 850px;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.action-items  p {
+    margin: 0;
+    color: white;
+}
+
+.call-action {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-button button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 25px 0px;
+}
 
 .info, .quote, .action, .footer {
     display: flex;
