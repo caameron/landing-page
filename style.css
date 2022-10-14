@@ -21,7 +21,7 @@ body {
 .header, .main-content {
     display: flex;
     flex: 1;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px 100px 75px 100px;
 }
 
@@ -88,7 +88,7 @@ body {
 
 .card-holder {
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     padding: 0 0 75px 0;
 }
 
@@ -105,6 +105,23 @@ body {
     border-radius: 12px;
     border-color: #3882F6;
     border-style: solid;
+}
+
+/* QUOTE BOX */
+
+.quote {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    width: 800px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 
